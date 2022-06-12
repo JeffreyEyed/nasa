@@ -1,5 +1,5 @@
 //fetch using https://api.nasa.gov/
-require("dotenv").config()
+const dotenv = require("dotenv").config()
 //console.log(process.env)
  //import 'dotenv/config'
  //import express from 'express'
@@ -10,7 +10,7 @@ document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
   const choice = document.querySelector('input').value
-  const api_key = process.env.API_KEY //or use... const api_key = 'PUT_YOUR_API_KEY_HERE'
+  const api_key = process.env.API_KEY; //or use... const api_key = 'PUT_YOUR_API_KEY_HERE'
   const url = `https://api.nasa.gov/planetary/apod?api_key=${api_key}&date=${choice}`
 console.log(choice)
   fetch(url)

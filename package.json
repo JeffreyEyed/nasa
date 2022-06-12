@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "parcel": "^2.6.0"
+    "parcel": "^2.6.0",
+    "vercel": "^24.2.4"
   },
   "devDependencies": {
     "os-browserify": "^0.3.0",
