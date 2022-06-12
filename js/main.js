@@ -36,9 +36,9 @@ console.log(choice)
 }
 
 //Not using in this project/ keeps browser from reloading forms and css in such case use
-if (module.hot){
+/*if (module.hot){
   module.hot.accept()
-}
+}*/
 
 
 
