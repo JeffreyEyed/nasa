@@ -92,7 +92,7 @@
       filter: blur(5px);
       width: 102%;
       height: 108%;
-      animation: moving-gradient 20s linear;
+      animation: moving-gradient 20s linear infinite;
       opacity: 0;
       transition: opacity .3s ease-in-out;
       border-radius: 10px;
