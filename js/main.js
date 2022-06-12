@@ -1,5 +1,5 @@
 //fetch using https://api.nasa.gov/
-//require("dotenv").config()
+require("dotenv").config()
 //console.log(process.env)
  //import 'dotenv/config'
  //import express from 'express'
