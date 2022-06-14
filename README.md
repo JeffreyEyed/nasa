@@ -11,4 +11,4 @@ I had to load a few packages using nodejs and after a lot of trial and error I w
 
 A couple of great video I had to reference to are... installing parcel and packages https://www.youtube.com/watch?v=D3EZ9dvjuHI and hiding API's https://www.youtube.com/watch?v=17UVejOw3zA&t=304s.  
 
-Make sure to check the package.json file to see the packages I installed (dependencies and devDependencies).  I then used Vercel.com to create the app, which you can check out here: https://nasa-two.vercel.app/  ... Hope you ENJOY the app!   
+Make sure to check the package.json file to see the packages I installed (only 'dependencies' -- Note: all 'devDependencies' were installed by the dependencies).  I then used Vercel.com to create the app, which you can check out here: https://nasa-two.vercel.app/  ... Hope you ENJOY the app!   
